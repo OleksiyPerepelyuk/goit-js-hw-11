@@ -10,14 +10,15 @@
   <body>
     <main>
       <div class="container">
-        <div class="search-container">
+        <form class="search-form">
           <input
             class="search-input"
             type="text"
             placeholder="Search images..."
           />
-          <button class="btn-search" type="button">Search</button>
-        </div>
+          <button class="btn-search" type="submit">Search</button>
+        </form>
+        <div class="loader-container"><span class="loader active"></span></div>
         <ul class="gallery"></ul>
       </div>
     </main>

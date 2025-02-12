@@ -15,3 +15,29 @@
   transform: translateY(-3%);
   transition: 500ms;
 }
+
+.thumb-data {
+  max-width: 360px;
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.thumb-data-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb-data-title {
+  display: block;
+  line-height: 1.33;
+  font-weight: 600;
+  text-align: center;
+}
+
+.thumb-data-data {
+  display: block;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+}
