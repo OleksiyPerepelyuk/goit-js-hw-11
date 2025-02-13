@@ -16,7 +16,6 @@ function onSubmit(evt) {
   input.value = '';
 
   const loader = document.querySelector('.loader');
-  const loaderContainer = document.querySelector('.loader-container');
 
   loader.style.display = 'block';
 

@@ -54,3 +54,7 @@ span.loader {
       linear-gradient(#4e75ff 20px, transparent 0);
   }
 }
+
+.loader.active {
+  display: none;
+}
